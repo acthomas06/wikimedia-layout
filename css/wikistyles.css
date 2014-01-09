@@ -1,58 +1,90 @@
 body {
-	font-family: Trebuchet MS;
-}
-header {
-	padding: 50px;
-	border: 3px solid #bbb;
-	border-top-right-radius: 15px;
-	border-top-left-radius: 15px;
-}
-footer {
-	width: 100%;
+	font: 13px/1.5 sans-serif;
+	background-color: white;
+	margin: 0.3em 0;
 }
 
-footer a {
-	margin-left: 220px;
-	padding: .5em;
-	display: inline;
-	color: black;
-	border: 2px solid #eee;
-	background-color: #eee;
-	cursor: pointer;
-}
-a {
-	text-decoration: none;
-	font-family: Lucida;
-	font-size: 14px;
-	font-weight: bold;
-}
-
-h1 {
-	padding-top: 50px;
-	margin: 0px auto;
-}
-#wrapper {
-	width: 900px;
-	margin: 0px auto;
-}
-
-#bottom {
-	padding: 20px;
-	padding-bottom: 50px;
-	clear: both;
-}
-
-#content {
-	border: 3px solid #bbb;
-	border-bottom-right-radius: 15px;
-	border-bottom-left-radius: 15px;
-}
-
-#row1, #row2, #row3, #row4 {
-	padding-left: 100px;
+section {
+	padding: 0.5em 1em;
 	display: inline-block;
 }
 
-.row1, .row2, .row3, .row4 {
-	padding: 1em;
+div {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	unicode-bidi: embed;
+	white-space: nowrap;
+	outline: 0;
+	color: #0645AD;
+}
+
+p {
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+ul {
+	list-style-type: disc;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 40px;
+}
+
+img {
+	width: 135px;
+	height: 155px;
+}
+#intro {
+	text-align: justify;
+	vertical-align: top;
+	width: 90%;
+	font-size: 150%;
+	margin: 0 auto;
+}
+
+#titlehead {
+	text-align: right;
+}
+
+
+#footer {
+	text-align: center;
+	width: 70%;
+	margin: 10px auto;
+	border-top: 1px solid #AAAAAA;
+}
+
+#footer ul, #footer ul li {
+	display: inline;
+	padding: 0;
+	margin: 0 10px;
+}
+
+.tiles {
+	display: inline-block;
+	padding: .5em 1em;
+	padding-right: 4.85em;
+	padding-left: 3.25em;
+	vertical-align: middle;
+	text-align: center;
+	margin: 0px auto;
+}
+
+.container  {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.content {
+	width: 1000px;
+	margin: 0 auto;
+	vertical-align: middle;
 }
